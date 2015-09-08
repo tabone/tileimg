@@ -1,0 +1,27 @@
+{
+  "name": "tileimg",
+  "version": "0.0.0",
+  "description": "",
+  "bin": {
+    "tileimg": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "github": "https://github.com/tabone/tileimg",
+  "author": "Luca Tabone <taboneluca3@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "ejs": "^2.3.4",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "q": "^1.4.1",
+    "rimraf": "^2.4.3",
+    "sprintf-js": "^1.0.3"
+  }
+}
