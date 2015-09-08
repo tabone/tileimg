@@ -1,7 +1,16 @@
 {
   "name": "tileimg",
   "version": "0.0.2",
-  "description": "",
+  "description": "Converts your image to map tiles!",
+  "keywords": [
+    "image",
+    "map",
+    "maps",
+    "tiles",
+    "tile",
+    "tileimg",
+    "converter"
+  ],
   "bin": {
     "tileimg": "index.js"
   },
