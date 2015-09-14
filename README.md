@@ -2,6 +2,23 @@
 
 Converts your image to map tiles which can be viewed using libraries like [LeafletJS](http://leafletjs.com/) and [OpenLayers](http://openlayers.org/).
 
+It's built upon ImageMagick:
+
+On Ubuntu
+```bash
+$ apt-get install imagemagick
+```
+
+On Mac OS X
+```bash
+$ brew install imagemagick
+```
+
+On CentOS
+```bash
+$ yum install imagemagick
+```
+
 ## Install
 ```bash
 npm install -g tileimg
